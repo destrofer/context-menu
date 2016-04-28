@@ -1,0 +1,21 @@
+{
+  "name": "context-menu",
+  "authors": [
+    "Viacheslav Soroka"
+  ],
+  "description": "Simple JavaScript class for context menus.",
+  "main": "js/context-menu.js",
+  "keywords": [
+    "context",
+    "menu"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/destrofer/context-menu",
+  "private": true,
+  "ignore": [
+    "compile-scss.bat"
+  ],
+  "dependencies": {
+    "jquery": "^1.7.2"
+  }
+}

@@ -1,0 +1,46 @@
+/*
+* ContextMenu
+*
+* Copyright (c) 2016 Viacheslav Soroka
+*
+* MIT License - http://www.opensource.org/licenses/mit-license.php
+*/
+.context-menu {
+  position: fixed;
+  box-sizing: border-box;
+  left: 32px;
+  top: 32px;
+  border: 1px solid #f48023;
+  background: #FFF;
+  padding: 0px;
+  overflow: hidden;
+  z-index: 2000;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.context-menu-item {
+  display: block;
+  padding: 3px 20px;
+  color: #f48023;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.context-menu-item:hover {
+  background: #f48023;
+  color: #FFF;
+}
+.context-menu-item:hover a {
+  color: #FFF;
+}
+
+/*# sourceMappingURL=context-menu.css.map */
